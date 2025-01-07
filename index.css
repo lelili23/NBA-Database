@@ -1,0 +1,116 @@
+
+h1 {
+    font-size: 36px; 
+    margin-bottom: 20px; 
+}
+
+h2 {
+    font-size: 24px;
+    margin-top: 40px; 
+    margin-bottom: 20px; 
+    text-transform: uppercase; 
+}
+
+body {
+    background-color:white;
+    margin-left: 20px;
+    margin-right: 20px;
+    max-width: 1200px; 
+    margin-left: auto; 
+    margin-right: auto;
+    margin-bottom: 100px;
+}
+
+table {
+    width: 100%; 
+    border-collapse: collapse; 
+    background-color: #ddd;
+    margin: 20px 0; 
+    margin-bottom: 80px;
+}
+
+th {
+    background-color: #357ce5; 
+    color: white; 
+    text-align: left; 
+    padding: 10px; 
+    font-weight: bold; 
+}
+
+td {
+    padding: 10px; 
+    border: 1px solid white; 
+    text-align: left; 
+}
+
+table, th, td {
+    border: 1px solid white; 
+}
+
+a {
+    text-decoration: none; 
+    color: #000; 
+}
+
+a:hover {
+    color: #357ce5; 
+}
+
+button {
+    background-color: #ddd; 
+    color: #575757; 
+    border: none; 
+    border-radius: 5px; 
+    padding: 10px 20px; 
+    font-size: 1rem; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+}
+
+button:hover {
+    background-color: #357ce5;
+}
+
+.horizontal-table {
+    width: min-content !important; 
+}
+
+.salary-form {
+    background-color: white;
+    padding: 0px;
+    margin-top: 15px;
+}
+
+form {
+    max-width: 600px;
+    padding: 20px;
+    background-color: #ddd;
+}
+
+form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+}
+
+form input {
+    width: 97%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+    width: fit-content;
+    padding: 12px;
+    background-color: #357ce5;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #1762d1;
+}
